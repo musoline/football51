@@ -1,8 +1,11 @@
+* p {
+  text-transform: capitalize;
+}
 .container {
   width: 100%;
 }
 .container .single-article {
-  width: 720px;
+  width: 80%;
   margin: 0 auto;
 }
 .container .single-article .single-article-thumbnail {
@@ -13,10 +16,24 @@
   height: 100%;
 }
 .container .single-article .single-article-info {
-  padding: 5px;
-  background-color: #fff;
+  height: 65px;
+  width: 100%;
+  background-color: #273147;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container .single-article .single-article-info p {
-  color: #888888;
+  color: #ffffff;
+  padding: 0 10px;
+  font-size: 22px;
+}
+.container .single-article .single-article-info .dash {
+  background-color: #ffffff;
+}
+.container .single-article .single-article-text p {
+  color: #80838d;
+  text-align: justify;
   font-size: 16px;
 }

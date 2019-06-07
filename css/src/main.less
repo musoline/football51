@@ -1,4 +1,9 @@
 @import 'variables';
+*{
+    p{
+        text-transform: capitalize;
+    }
+}
 .container{
     width: @full-width;
 
@@ -13,11 +18,31 @@
             }
         }
         .single-article-info{
-            padding: 5px;
-            background-color: #fff;
+            height: 65px;
+            width: 100%;
+            background-color: #273147;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             p{
-                color: @text-color;
-                font-size: @text-size;
+                color: #ffffff;
+                padding: 0 10px;
+                font-size: 22px;
+            }
+
+            .dash{
+                background-color: #ffffff;
+            }
+
+        }
+
+        .single-article-text{
+            p{
+                color: #80838d;
+                text-align: justify;
+                font-size: 16px;
             }
         }
     }
